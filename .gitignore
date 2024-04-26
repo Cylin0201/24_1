@@ -392,3 +392,12 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Ignore all
+*
+
+# UnIgnore all with extensions
+!*.*    
+
+# Unignore all dirs
+!*/

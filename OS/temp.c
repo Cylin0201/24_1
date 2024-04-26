@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 int main(){
-    int pid = fork();
+    int pid;
 
-    if (pid == 0){  //자식 프로세스
+    if ((pid = fork()) == 0){  //자식 프로세스
         printf("Child PROCESS of %d is %d\n", getppid(), getpid());
     }
     else{   //부모 프로세스

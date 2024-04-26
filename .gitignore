@@ -3,6 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Ignore all
+*
+
+# UnIgnore all with extensions
+!*.*    
+
+# Unignore all dirs
+!*/
+
 # User-specific files
 *.rsuser
 *.suo
@@ -392,12 +401,3 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
-
-# Ignore all
-*
-
-# UnIgnore all with extensions
-!*.*    
-
-# Unignore all dirs
-!*/

@@ -4,10 +4,10 @@
 int main(){
     int pid = fork();
 
-    if (pid == 0){
+    if (pid == 0){  //자식 프로세스
         printf("Child PROCESS of %d is %d\n", getppid(), getpid());
     }
-    else{
+    else{   //부모 프로세스
         printf("I am %d. My child is %d\n", getpid(), pid);
     }
     return 0;
